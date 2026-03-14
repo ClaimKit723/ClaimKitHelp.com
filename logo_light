@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <!-- Shield mark -->
+  <g transform="translate(20, 16)">
+    <path d="M22 0 L44 11 L44 46 Q44 72 22 84 Q0 72 0 46 L0 11 Z" fill="#5e8b7e"/>
+    <path d="M22 6 L38 15 L38 46 Q38 68 22 78 Q6 68 6 46 L6 15 Z" fill="#6fa093" opacity="0.35"/>
+    <polyline points="9,43 19,55 37,30" fill="none" stroke="#fafaf8" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="82" y="66"
+        font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+        font-size="44" font-weight="500" fill="#2e2e2e" letter-spacing="-0.8">Claim</text>
+  <text x="236" y="66"
+        font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+        font-size="44" font-weight="500" fill="#5e8b7e" letter-spacing="-0.8">Kit</text>
+  <!-- Tagline -->
+  <text x="84" y="86"
+        font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+        font-size="11" font-weight="400" fill="#888888" letter-spacing="2.2">SMALL CLAIMS. BIG CONFIDENCE.</text>
+</svg>
