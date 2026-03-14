@@ -47,10 +47,6 @@
     display: flex; align-items: center; justify-content: space-between;
   }
   .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-  .nav-logomark {
-    width: 32px; height: 32px; background: var(--sage);
-    border-radius: 8px; display: flex; align-items: center; justify-content: center;
-  }
   .nav-logo img { height: 32px; width: auto; display: block; }
   .nav-links { display: flex; align-items: center; gap: 2rem; }
   .nav-links a { font-size: 14px; color: var(--muted); text-decoration: none; transition: color .2s; }
@@ -681,15 +677,17 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <div class="footer-logo">
-      <div class="nav-logomark">
-        <svg viewBox="0 0 18 18" fill="none">
-          <path d="M3 13.5L9 4.5L15 13.5" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="9" cy="15.5" r="1.5" fill="white"/>
-        </svg>
-      </div>
+   <div class="footer-logo">
       <div>
-        <div class="footer-name">ClaimKit</div>
+        <svg height="28" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+          <g transform="translate(2, 8)">
+            <path d="M22 0 L44 11 L44 46 Q44 72 22 84 Q0 72 0 46 L0 11 Z" fill="#5e8b7e"/>
+            <path d="M22 6 L38 15 L38 46 Q38 68 22 78 Q6 68 6 46 L6 15 Z" fill="#6fa093" opacity="0.35"/>
+            <polyline points="9,43 19,55 37,30" fill="none" stroke="#fafaf8" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text x="62" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="40" font-weight="500" fill="#fafaf8" letter-spacing="-0.8">Claim</text>
+          <text x="206" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="40" font-weight="500" fill="#5e8b7e" letter-spacing="-0.8">Kit</text>
+        </svg>
         <div class="footer-tagline">Small claims. Big confidence.</div>
       </div>
     </div>
